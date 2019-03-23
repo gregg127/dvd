@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-image: radial-gradient(circle, #b28bc0 55%, #f4afc2);*/
+    background-color: #f4afc2;
+    background: url('../assets/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#sketch {
+    border: 5px solid #b28bc0;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    margin-top: 15px;
+    width: 130;
+    height: 50px;
+    background: #f195ac;
+    color: #0266c8;
+    font-weight: bold;
+    border: 2px solid #b28bc0;
+    border-radius: 3px;
+}
+
+input[type="button"]:hover {
+    cursor: pointer;
+    background: #b28bc0;
+    border: 3px solid #b28bc0;
+}
+
+audio {
+    margin-bottom: 19px;
+}
